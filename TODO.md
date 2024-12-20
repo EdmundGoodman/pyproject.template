@@ -1,0 +1,20 @@
+- Incorporate ideas/tools from <https://github.com/cjolowicz/cookiecutter-hypermodern-python>
+  - Documentation
+    - "Documentation with Sphinx, MyST, and Read the Docs using the furo theme"
+    - "Generate command-line reference with sphinx-click"
+  - Testing
+    - "Test automation with Nox"
+    - "Check documentation examples with xdoctest"
+  - Tooling
+    - "Security audit with Bandit and Safety"
+    - "Automated Python syntax upgrades with pyupgrade"
+    - ?? Runtime type-checking with Typeguard
+  - Releases
+    - "Automated uploads to PyPI and TestPyPI"
+    - "Automated release notes with Release Drafter"
+    - "Manage project labels with GitHub Labeler"
+    - Consider <https://github.com/callowayproject/bump-my-version> or some alternative
+  - CI
+    - "Automated dependency updates with Dependabot"
+    - Compare CI workflows
+- Consider making cookiecutter to generate new projects
